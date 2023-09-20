@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Variáveis para cores */
+:root {
+    --nav-bg-color: #333;
+    --nav-text-color: #fff;
+}
+
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    height: 2rem;
+    padding: 0 2.4rem;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o parágrafo de introdução */
+p {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p strong {
+    font-weight: bold;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    text-align: center;
+    padding: 5px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    height: 6rem;
+    padding: 0 2.4rem;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* Estilos para a imagem */
+img {
+    max-width: 50%;
+    height: auto;
+}
